@@ -2,7 +2,7 @@
     "scopeName": "source.mini",
     "patterns": [
       {
-        "match": "\\b(func|struct|return|let|if|else|while|for|print)\\b",
+        "match": "\\b(func|struct|construct|return|let|if|else|while|for|print|import)\\b",
         "name": "keyword.control.mini"
       },
       {
