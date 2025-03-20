@@ -1,0 +1,18 @@
+# Ignore node modules and dependency files
+node_modules/
+package-lock.json
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore compiled output
+*.vsix
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+npm-debug.log
+yarn-error.log

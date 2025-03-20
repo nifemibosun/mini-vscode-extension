@@ -1,0 +1,33 @@
+{
+    "name": "mini-vscode-extension",
+    "displayName": "Mini Syntax",
+    "description": "Syntax highlighting for the Mini programming language",
+    "version": "0.0.1",
+    "publisher": "NifemiBosun",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nifemibosun/mini-vscode-extension.git"
+    },
+    "engines": {
+      "vscode": "^1.75.0"
+    },
+    "categories": ["Programming Languages"],
+    "contributes": {
+      "languages": [
+        {
+          "id": "mini",
+          "aliases": ["Mini", "mini"],
+          "extensions": [".mini"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "mini",
+          "scopeName": "source.mini",
+          "path": "./syntaxes/mini.tmLanguage.json"
+        }
+      ]
+    }
+  }
+  

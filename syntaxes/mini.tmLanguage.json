@@ -1,0 +1,31 @@
+{
+    "scopeName": "source.mini",
+    "patterns": [
+      {
+        "match": "\\b(func|struct|return|let|if|else|while|for|print)\\b",
+        "name": "keyword.control.mini"
+      },
+      {
+        "match": "\\b(int8|int16|int32|int64|int128|intn|uint8|uint16|uint32|uint64|uint128|uintn|float8|float16|float32|float64|float128|floatn|string|char|bool|Arr|Self|Tuple)\\b",
+        "name": "storage.type.mini"
+      },
+      {
+        "match": "\"(\\\\.|[^\"])*\"",
+        "name": "string.quoted.double.mini"
+      },
+      {
+        "match": "\\\\[nrt]",
+        "name": "constant.character.escape.mini"
+      },
+      {
+        "match": "//.*",
+        "name": "comment.line.mini"
+      },
+      {
+        "match": "/\\*.*?\\*/",
+        "name": "comment.block.mini"
+      }
+  
+    ]
+  }
+  
